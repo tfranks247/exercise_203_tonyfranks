@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:inline="text">The employee's first name was [[${employee.firstName}]]. <br />
+    The last name was [[${employee.lastName}]]. <br />
+    The social security number was [[${employee.ssn}]]. <br />
+    The date of birth was [[${employee.dob}]]. <br />
+</body>
+</html>
